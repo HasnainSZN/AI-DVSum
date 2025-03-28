@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "AI-DVSum",
+  "version": "1.0",
+  "description": "Summarize documents and YouTube videos using AI.",
+  "action": {
+    "default_title": "AI-DVSumm",
+    "default_popup": "index.html"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
